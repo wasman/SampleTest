@@ -20,7 +20,7 @@ public class Main {
         // initialize class to test
         ArrayHelper helper = new ArrayHelper();
 
-        int[] returnValue = helper.LeftUnion(leftArray, rightArray);
+        int[] returnValue = helper.leftUnion(leftArray, rightArray);
 
         // assert return value
         System.out.println(String.format("Result array : %s", Arrays.toString(returnValue)));
@@ -39,7 +39,7 @@ public class Main {
         // initialize class to test
         ArrayHelper helper = new ArrayHelper();
 
-        int[] returnValue = helper.LeftUnion(leftArray, rightArray);
+        int[] returnValue = helper.leftUnion(leftArray, rightArray);
 
         // assert return value
         System.out.println(String.format("Result array : %s", Arrays.toString(returnValue)));
@@ -58,7 +58,7 @@ public class Main {
         // initialize class to test
         ArrayHelper helper = new ArrayHelper();
 
-        int[] returnValue = helper.LeftUnion(leftArray, rightArray);
+        int[] returnValue = helper.leftUnion(leftArray, rightArray);
 
         // assert return value
         System.out.println(String.format("Result array : %s", Arrays.toString(returnValue)));
